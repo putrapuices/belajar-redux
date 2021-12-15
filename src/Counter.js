@@ -1,6 +1,8 @@
 import React from "react";
 import {connect} from 'react-redux';
 function Counter(props){
+
+    console.log('render =>',props);
     return(
         <div>
             <h1>Saya mesin penghitung</h1>
